@@ -21,10 +21,17 @@
               <div class="card-body">
                 <h5 class="card-title">${user.name}</h5>
                 <p class="card-text">
+<<<<<<< HEAD
                   <strong>ID:</strong> ${user.id} <br>
                   <strong>Legajo:</strong> ${user.legajo} <br>
                   <strong>Categoría:</strong> ${user.category_id} <br>
                   <strong>Profesión:</strong> ${user.profession_id} <br>
+=======
+
+                  <strong>Legajo:</strong> ${user.legajo} <br>
+                  <strong>Categoría:</strong> ${user.name_category} <br>
+                  <strong>Profesión:</strong> ${user.name_profession} <br>
+>>>>>>> 48fd36f876aa4caa032ba60fd4cc0f8d54d002a8
                   <strong>DNI:</strong> ${user.dni ?? "N/A"}
                 </p>
               </div>
